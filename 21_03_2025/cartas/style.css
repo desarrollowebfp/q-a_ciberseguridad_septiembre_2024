@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+header {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+main img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+main > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+main > div {
+  padding: 20px;
+  border: 2px dashed rgba(0, 0, 0, 0.198);
+}
